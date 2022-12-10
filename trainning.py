@@ -2,15 +2,14 @@ import nltk
 
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
-nltk.download()
-cc
+nltk.download('popular')
 import json
 import pickle
 
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
-from keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD
 import random
 
 words=[]
